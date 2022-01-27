@@ -1,0 +1,57 @@
+.column {
+    font-family: monospace;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: fit-content; 
+    margin: 0;
+}
+
+.add-item-field {
+    text-align: left;
+    justify-content: left;
+}
+
+.add-item-field input {
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+    float: left;
+    
+}
+
+button {
+    font-family: monospace;
+    font-weight: bold;
+    background-color: lightskyblue;
+    border-radius: 5px;
+    border: 1px solid mediumspringgreen;
+    padding: 2px 10px;
+    cursor: pointer;
+}
+
+input[type=checkbox]:checked+label {
+    text-decoration: line-through;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+}
+
+ul input {
+    margin: 0;
+    margin-right: 10px;  
+}
+
